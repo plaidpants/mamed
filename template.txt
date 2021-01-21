@@ -1,0 +1,48 @@
+-- Head
+<HTML>
+<HEAD><TITLE>
+MAMED! Site Search Results for %Query%
+</TITLE></HEAD>
+<BODY BGCOLOR="#ffe637">
+
+<P><CENTER><IMG SRC="/mamed_logo_comp.gif" BORDER="0" WIDTH="700"
+HEIGHT="133" NATURALSIZEFLAG="0" ALIGN="BOTTOM"></CENTER></P>
+
+<FONT SIZE="+1" FACE="Arial">MAMED! Site Search</FONT><BR>
+
+<BLOCKQUOTE><FONT FACE="Arial">
+
+<FORM ACTION="/cgi-bin/site-search">
+<INPUT TYPE=hidden NAME=template VALUE="/template.txt">
+<TABLE ALIGN=CENTER>
+<TR VALIGN=BOTTOM><TD><B>New Search:</B>
+<TD ALIGN=RIGHT>
+  Match: &nbsp;
+  <SELECT NAME=style>
+    <OPTION>All Words</OPTION>
+    <OPTION>Any Word</OPTION>
+    <OPTION>Boolean</OPTION>
+    <OPTION>File Name</OPTION>
+  </SELECT>
+<TR><TD COLSPAN=2>
+  <INPUT TYPE=text NAME=query SIZE=40 VALUE="%query%">
+  <INPUT TYPE=SUBMIT VALUE="Search">
+</TABLE>
+</FORM>
+
+Results for &quot%query%&quot:<BR>
+<HR>
+<OL>
+-- Loop
+<LI>(%rank%) <A HREF="%url%">%title%</A><BR>
+    Updated: %mtime% &nbsp; Size: %size%<P>
+-- Foot
+</OL>
+<HR>
+Total Hits: %hits%<P>
+
+<A HREF="/">Back to the MAMED! home page</A><P>
+
+</FONT></BLOCKQUOTE>
+
+</HTML>

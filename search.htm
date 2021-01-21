@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+  <META NAME="GENERATOR" CONTENT="Adobe PageMill 3.0 Win">
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+  <META NAME="ProgId" CONTENT="FrontPage.Editor.Document">
+  <TITLE>MAMED! - Search</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffe637">
+
+<FORM>
+<P><CENTER><IMG SRC="mamed_logo_comp.gif" BORDER="0" WIDTH="700"
+HEIGHT="133" NATURALSIZEFLAG="0" ALIGN="BOTTOM"></CENTER></P>
+
+<P><TABLE ALIGN="CENTER" BORDER="0" CELLSPACING="2" CELLPADDING="0">
+  <TR VALIGN="BOTTOM">
+    <TD>
+    <B>New Search:</B></TD> 
+    <TD ALIGN="RIGHT">
+    Match: &nbsp; <SELECT NAME="style">
+    <OPTION SELECTED>All Words
+    <OPTION>Any Word
+    <OPTION>Boolean
+    <OPTION>File Name
+    </SELECT></TD> 
+  </TR>
+  <TR>
+    <TD COLSPAN="2">
+    <INPUT TYPE="text" NAME="query" SIZE="40" VALUE="%query%"> <INPUT
+    TYPE="submit" VALUE="Search"></TD>
+     
+  </TR>
+</TABLE>Results for %query%:<BR>
+<HR ALIGN=LEFT></P>
+
+<OL>
+  <P>-- Loop
+  <LI>(%rank%) <A HREF="%url%">%title%</A><BR>
+  Updated: %mtime% &nbsp; Size: %size%
+  <P>-- Foot
+</OL>
+
+<P><HR ALIGN=LEFT>Total Hits: %hits%</P>
+
+<P><CENTER><A HREF="/">Back to the home page</A></CENTER></FORM>
+
+</BODY>
+</HTML>

@@ -1,0 +1,50 @@
+March 15, 2003
+
+RE: Demand for Immediate Take Down - Notice of Infringing Activity -
+Reference#: 1005496
+
+Dear Robert L. Hunter, IV;
+
+Thank you for your e-mail dated March 13, 2003. I am the webmaster of the
+http://digita.mame.net/  web site. This site is dedicated to video game
+emulation on digital cameras and the Sega Dreamcast. I strive hard to make
+sure no illegal copyrighted works reside on my web site as stated on the
+home page. So any allegation that I am carrying software to which I do not
+have permission I take very seriously. However the list of a title provided
+to me by yourselves is unfortunately somewhat vague (e.g. "Pac Man")
+
+"Proper notice under the safe harbor provisions requires the copyright
+owners to specifically identify and locate the infringing materials.
+[512(c)(3)(A)(ii)] Rather than simply sending a letter to the service
+provider that claims that infringing material exists on their system, this
+qualification ensures that service providers are given a reasonable amount
+of information about the infringing material to effectively police its
+network. [512(c)(3)(A)(iii)]"
+
+However, I have attempted to remove any items from the digita.mame.net web
+site which might match "Pac Man" pursuant to 17 U.S.C. Section 512. I have a
+good faith belief that this material was identified by you in error as a
+result of mistake or misidentification.
+
+The items I removed are ports of the multipac emulator for the original
+Namco Pacman video arcade machine. They do not contain any of the original
+roms from the arcade machine. Any user of these emulators must supply these
+roms themselves. If I do not hear anything from you with 10 business days I
+will put these items back onto my web site and assume the matter is closed.
+If there is indeed clear and present proof that the title you listed are
+present on my web site, I will be happy to remove those files.
+
+http://digita.mame.net/multipacdc.zip
+http://digita.mame.net/Multipac02b823.zip
+http://digita.mame.net/Multipac02bDCAM.zip
+http://digita.mame.net/Multipac02bColdfire.zip
+http://digita.mame.net/Multipac02s.zip
+
+I appreciate your prompt attention to this matter. If you have any questions
+about this notice, please do not hesitate to contact me.
+
+Sincerely,
+
+James Surine
+xevious@holonet.net
+http://digita.mame.net/

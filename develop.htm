@@ -1,0 +1,158 @@
+<HTML>
+<HEAD>
+  <META NAME="GENERATOR" CONTENT="Adobe PageMill 3.0 Win">
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+  <META NAME="ProgId" CONTENT="FrontPage.Editor.Document">
+  <TITLE>MAMED! - Developer Information</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffe637" LINK="#cc3300" VLINK="#771100">
+
+<P><CENTER><!--#include virtual="/cgi-bin/add-ad.pl"-->&nbsp;</CENTER></P>
+
+<P><CENTER><IMG SRC="mamed_logo_comp.gif" BORDER="0" WIDTH="700"
+HEIGHT="133" NATURALSIZEFLAG="0" ALIGN="BOTTOM"></CENTER></P>
+
+<P><TABLE BORDER="0" WIDTH="99%" CELLSPACING="0" CELLPADDING="16">
+  <TR>
+    <TD WIDTH="150" VALIGN="TOP">
+    <!--#include virtual="/left.htm"-->
+</TD>
+    <TD WIDTH="100%" VALIGN="TOP" BGCOLOR="#ffcd37">
+    <P><B><FONT SIZE="+2" FACE="Arial">Digita Applications</FONT></B></P>
+
+    <P><FONT FACE="Arial">Basically Digita OS alternate applications
+    &quot;.CAM files&quot; are nothing more than unresolved relocatable
+    object files with an entry() function. Digita OS uses the vxWorks
+    loadModule() function to load and link the application object
+    file at runtime with the OS. You don't have to include any OS
+    dependant functions like printf() in you object, just a reference
+    to it, Digita will link everything at runtime. Digita then looks
+    up the reference to entry in the object file and calls it, thus
+    launching the alternate application.</FONT></P>
+
+    <P><FONT FACE="Arial">Each platform uses different object files
+    but the Kodak DC220, DC260, DC265, and DC290 use the vxWorks
+    powerpc arch with elf object files configured for the PPC860.
+    The Dimage 1500EX uses the vxWorks MIPS arch with elf files configured
+    for the CW4000. Flashpoint will be releasing shortly a new alternate
+    application SDK for Digita which includes the vxWorks enviroment
+    for the PC along with a special version of Digita that can be
+    loaded on the Kodak DC290 to allow source level debugging.</FONT></P>
+
+    <P><FONT FACE="Arial">If you are just looking to experiment a
+    bit you could probably get by with just the GNU compiler configured
+    for powerpc-elf. Just create an unresolved object file with an
+    entry() function, rename it .cam something and put it on the
+    San Disk in the system folder. Most of the standard &quot;C&quot;
+    library function are availible, you can also learn a lot from
+    looking at my code. If you succeed in getting anything to work
+    let me know I'd be interested in hearing about it. Several people
+    have contacted my about stuff they have gotten working on their
+    cameras.</FONT></P>
+
+    <P><FONT FACE="Arial">Here is a <A HREF="http://graphics.lcs.mit.edu/~aisaksen/projects/cameras/kodak/gcc.html">web
+    site</A> that describes exactly how to build GCC as a cross compiler
+    that works with kodak Digita cameras. He was even able to compile
+    and run the current version of Multipac on his DC260 camera.
+    Everything he used to build the development system was freely
+    avaible on the internet. You should be able to build basic applications
+    for the camera that use the compact flash, buttons, and LCD by
+    using the current Mulitpac source code availible on this web
+    site. You can download a Windows version of GCC for PPC <A HREF="Crossgcc.zip">here</A>
+    (26MB) that will work for the multipac source.</FONT></P>
+
+    <P><FONT FACE="Arial">Here is the <A HREF="http://www.flashpoint.com/about/press/1999/11/17.html">press
+    release</A> from both <A HREF="http://www.wrs.com/press/html/digita-isv.html">Wind
+    River</A> and <A HREF="http://www.flashpoint.com/about/press/1999/11/17.html">Flashpoint</A>
+    about the Digita SDK.</FONT></P>
+
+    <P><B><FONT SIZE="+2" FACE="Arial">Resources</FONT></B></P>
+
+    <P><A HREF="http://www.flashpoint.com/"><FONT FACE="Arial">http://www.flashpoint.com/</FONT></A></P>
+
+    <P><FONT FACE="Arial">FlashPoint main web site, you can find
+    their scripting SDK here but that is not an application.</FONT></P>
+
+    <P><A HREF="http://www.digitadev.com/"><FONT FACE="Arial">http://www.digitadev.com/</FONT></A></P>
+
+    <P><FONT FACE="Arial">FlashPoint application developer web site,
+    you have to register, but it is free, the SDK manual is availble
+    in PDF format, with lots of interesting stuff in it (found under
+    developer resources). Hopefully soon they will have the example
+    applications, source code and headers availible too.</FONT></P>
+
+    <P><A HREF="http://home.pacbell.net/david-b/digicam/"><FONT FACE="Arial">http://home.pacbell.net/david-b/digicam/</FONT></A></P>
+
+    <P><FONT FACE="Arial">Linux based GPL USB host software to communicate
+    with Kodak Digital Cameras including Digita based Kodak cameras.</FONT></P>
+
+    <P><A HREF="http://ods.sourceforge.net/"><FONT FACE="Arial">http://ods.sourceforge.net/</FONT></A></P>
+
+    <P><FONT FACE="Arial">Open Digita Services project. Tools for
+    accessing Digita from Linux and other unix operating systems.</FONT></P>
+
+    <P><A HREF="http://graphics.lcs.mit.edu/~aisaksen/projects/cameras/kodak/gcc.html"><FONT
+     FACE="Arial">http://graphics.lcs.mit.edu/~aisaksen/projects/cameras/kodak/gcc.html</FONT></A></P>
+
+    <P><FONT FACE="Arial">Web site that describes exactly how to
+    build GCC as a cross compiler that works with kodak Digita cameras
+    and how to use it to compile the Multipac source code found on
+    this web site.</FONT></P>
+
+    <P><A HREF="http://roger.trideja.com/"><FONT FACE="Arial">http://roger.trideja.com/</FONT></A></P>
+
+    <P><FONT FACE="Arial">This site is the home of the classic game,
+    BombSweeper and describes how he used the GCC cross compiler
+    to build it. Hopefully he will have other interesting applications
+    availble soon.</FONT></P>
+
+    <P><A HREF="http://www.bigfoot.com/~esa/dc290"><FONT FACE="Arial">DENPiX</FONT></A></P>
+
+    <P><FONT FACE="Arial">A camera application and script combination
+    that lets you take really great low light photos.</FONT></P>
+
+    <P><A HREF="http://sourceware.cygnus.com/"><FONT FACE="Arial">http://sourceware.cygnus.com/</FONT></A></P>
+
+    <P><FONT FACE="Arial">You can download the source code for the
+    GCC open source compiler here and then build it yourself for
+    your enviroment or you can download one already built below.</FONT></P>
+
+    <P><A HREF="Crossgcc.zip"><FONT FACE="Arial">Crossgcc-ppc.zip</FONT></A></P>
+
+    <P><A HREF="Crossgcc-dcam.zip"><FONT FACE="Arial">Crossgcc-dcam.zip</FONT></A></P>
+
+    <P><A HREF="Crossgcc-coldfire.zip"><FONT FACE="Arial">Crossgcc-coldfire.zip</FONT></A></P>
+
+    <P><FONT FACE="Arial">A Windows based PPC, DCAM and Coldfire
+    GCC cross compilers built by my friend Scott Angel. They are
+    configured to be located here &quot;C:\CROSSGCC\&quot; and are
+    big (&gt;20MB). You can use it to build real applications for
+    your Digita digital cameras.</FONT></P>
+
+    <P><A HREF="Shellapp.zip"><FONT FACE="Arial">Shellapp.zip</FONT></A></P>
+
+    <P><FONT FACE="Arial">A small debugging application that activates
+    the internal vxWorks debugger inside the camera and allows interaction
+    through the serial port. Just connect HyperTerm or other termial
+    program via a serial cable to a DC290 camera (DC290 camera only).
+    Put Shellapp.cam in your system folder on your compact flash
+    card. Then put the application you wish to debug on the card
+    too and name it test.cam. Run Shellapp.cam and it will load your
+    test application and suspend the task just before executing it.
+    From the serial port shell type &quot;tr 0x00000000&quot; using
+    the actual task ID of the alternate application to start your
+    application running so you can debug (type &quot;i&quot; to get
+    a list of task ID's). You can type help from the shell to get
+    information about all the debugging commands available. You can
+    set break points and all sorts of goodies. I rename Shellapp.cam
+    to default.cam so it always loads at start for faster turn around
+    time while debugging.</FONT></P>
+
+    <P>&nbsp;</TD> 
+  </TR>
+</TABLE></P>
+
+<P><CENTER><!--#include virtual="/bottom.htm"--></CENTER>
+
+</BODY>
+</HTML>

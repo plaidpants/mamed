@@ -1,0 +1,273 @@
+<HTML>
+<HEAD>
+  <META NAME="GENERATOR" CONTENT="Adobe PageMill 3.0 Win">
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+  <META NAME="ProgId" CONTENT="FrontPage.Editor.Document">
+  <TITLE>MAMED! - README</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffe637" LINK="#cc3300" VLINK="#771100">
+
+<P><CENTER><!--#include virtual="/cgi-bin/add-ad.pl"--></CENTER></P>
+
+<P><CENTER>&nbsp;<IMG SRC="mamed_logo_comp.gif" BORDER="0" WIDTH="700"
+HEIGHT="133" NATURALSIZEFLAG="0" ALIGN="BOTTOM"></CENTER></P>
+
+<P><TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="16">
+  <TR>
+    <TD WIDTH="150" VALIGN="TOP">
+    <!--#include virtual="/left.htm"-->
+</TD>
+    <TD WIDTH="100%" VALIGN="TOP" BGCOLOR="#ffcd37">
+    <P ALIGN=RIGHT><B><FONT FACE="Arial">DOOMD for Digita <A HREF="readmed.htm">ReadMe</A></FONT></B></P>
+
+    <P ALIGN=RIGHT><B><FONT FACE="Arial">MAMED for Dreamcast <A 
+    HREF="readmedc.htm">ReadMe</A></FONT></B></P>
+
+    <P><B><FONT FACE="Arial">1. How to install MAME or MESS for Digita:</FONT></B><FONT
+     FACE="Arial"><BR>
+<BR>
+    On the DC290 you need at least version 1.0.4 of the camera firmware.
+    You can download it from Kodak's web site <A HREF="http://www.kodak.com/global/en/service/software/dc290/navigation.shtml">here</A>
+    if you need to.</FONT></P>
+
+    <P><FONT FACE="Arial">Put the mini MAMED.CAM or MESSD.CAM file
+    and the MAME or MESS directory in the system folder of the compact
+    flash. Please enable only the cpu, sound, and game or system
+    drivers you are actually going to use because there is not enough
+    memory to load them all. You can enabled or disable them by moving
+    them in and out of their respective folders or by using the driver
+    selection menu. On the DC220 you have very little RAM so you
+    must load only one or two drivers at a time. I have included
+    some separated drivers just in case you need to reduce memory
+    requirements.</FONT></P>
+
+    <P><FONT FACE="Arial">It's a lot of relocatable object code so
+    you will probably need at least a 15MB card.</FONT></P>
+
+    <P><FONT FACE="Arial">Now, put a Roms Folder in the System folder
+    with all the roms inside you wish to use. Leave the game and
+    system roms zipped the program will uncompress them for you.
+    MESS system image files (carts, disks, etc.) must be uncompressed
+    and have the correct file extensions in order to load them. The
+    MESS filemanager defaults to a folder inside the roms folder
+    with the same name as the system you are running.</FONT></P>
+
+    <P><FONT FACE="Arial">Some people have reported problems using
+    the Kodak USB camera mounting software to put the files and folders
+    inside the System folder. You can use a card reader or laptop
+    with a PCMCIA slot to mount the card and put files and folders
+    on the compact flash card directly. Game ROM files can be in
+    the System Folder with this version. Some people have reported
+    sucess by dragging the completed folder to the mounted camera
+    instead of creating one in the explorer window. Others have reported
+    success using a script to make a folders. You could also unzip
+    the file directly in the explorer window on the mounted camera
+    as this appears to work as well. Macintosh uses need to use a
+    card reader cause Kodak doesn't supply camera mounting software
+    for the Macintosh.</FONT></P>
+
+    <P><FONT FACE="Arial">Currently MAMED and MESSD supports almost
+    all of the game and systems supported by MAME and MESS. But you
+    cannot load all the game, system, sound and cpu drivers at once
+    and still have enough RAM to actually run any of the games or
+    systems, except for maybe pacman. Some games and systems take
+    too much RAM to run anyways. The MESS drivers are new and just
+    becoming stable so expect some problems using some of the MESSD
+    systems.</FONT></P>
+
+    <P><FONT FACE="Arial">A few of the sound and cpu drivers are
+    required by many other drivers and are contained in the main
+    mame.o and mess.o driver files and so do not appear as separate
+    files in the driver folders. If a game or system will not run
+    it may not have the required sound or cpu drivers, or it might
+    just require too much RAM. I mark drivers that don't have all
+    modules loaded correctly with ALL CAPS. You may be able to get
+    some larger games and systems to run by reducing the number of
+    game, system, sound and cpu drivers being loaded. Do not mix
+    MAMED and MESSD driver files as they were compiled differently.</FONT></P>
+
+    <P><FONT FACE="Arial">You might want to learn how to use MAMED
+    &amp; MESSD by first using MAME and MESS on your PC. You can
+    experiment with operating the emulators a little more easily
+    than you can inside the camera. I suggest running the emulator
+    on the PC to figure out which cpu, sound, and system drivers
+    are required, these appear on the first screen.</FONT></P>
+
+    <P><FONT FACE="Arial">The Kodak cameras have a PPC 823 running
+    a 66Mhz. It's about like a Powermac6100/66 but without a big
+    processor cache. So expect the older games and systems to run
+    well but the newer games and systems to run a bit sluggish. I
+    get about 100% full speed with 20fps (every third frame) with
+    sound on a DC290 playing Pacman. Most games are still very playable
+    even when running at only 50% speed.</FONT></P>
+
+    <P><B><FONT FACE="Arial">2. How to operate MAME and MESS for
+    Digita inside the camera:</FONT></B></P>
+
+    <P><FONT FACE="Arial">Launch the MAMED.CAM or MESSD.CAM alternate
+    application from the applications menu in review mode menu in
+    the Digita UI. It's all the way to the right so you have to scroll
+    right one extra time to see this menu.</FONT></P>
+
+    <P><FONT FACE="Arial">You can also rename the MAMED.CAM or MESSD.CAM
+    application DEFAULT.CAM and it will launch when the camera is
+    powered on and this flash card is inserted. (I run it this way
+    since there isn't much room for pictures after I put a bunch
+    of roms on the card)</FONT></P>
+
+    <P><FONT FACE="Arial">Wait a while for it to load, load time
+    is dependent on the number of drivers you are loading.</FONT></P>
+
+    <P><FONT FACE="Arial">The main menu comes up and uses the built
+    in MAME UI to display a list a MAME or MESS drivers built into
+    this build and exist as roms on the compact flash. If no roms
+    are found the list will be empty. When system/game drivers do
+    not have all the correct cpu and sound driver modules enabled
+    I display it with ALL CAPS and will not allow it to be run.</FONT></P>
+
+    <P><FONT FACE="Arial">Use the up and down to scroll through the
+    list. Left and Right will page up and down. Select the game or
+    system you want to run by pressing the display button. This button
+    is mapped to &lt;enter&gt;. If all goes well you will see the
+    standard MAME/MESS warning and copyright page.</FONT></P>
+
+    <P><FONT FACE="Arial">MESSD will present an addition menu to
+    allow you to select system image files for use with the previously
+    selected system. The type of the file is determined by the file
+    extension so you must have your image files named correctly and
+    they cannot be compressed. You can select as many system image
+    files as you want when you are done select the blank line to
+    continue. MESSD now has a built in file manager menu which will
+    allow you to select any type of image anywhere on the card after
+    loading the machine. I may remove my menu since this one is much
+    nicer.</FONT></P>
+
+    <P><FONT FACE="Arial">You can also access the game and system
+    options menu by pressing the menu key while the game or system
+    list is displayed and before a game or system is run. You can
+    change an option by scrolling up and down and pressing the display
+    button to change the selected option. Return to the game or system
+    list by pressing the center softkey or the menu button again.</FONT></P>
+
+    <P><FONT FACE="Arial">The driver module selection screen can
+    be accessed by pressing the record button or the left softkey
+    from the driver/system list. This will cycle through the game/system,
+    cpu, and sound driver modules that are found in the enabled and
+    disabled directories. use up and down to select and file and
+    by pressing the overlay button will move the files in and out
+    of the directories. Remember not to enable too many files or
+    there will not be enough RAM to run the application.</FONT></P>
+
+    <P><FONT FACE="Arial">Game or System options:<BR>
+    -Pad Orientation<BR>
+    Allows you to select which way is up with regards to the directional
+    pad. It only is active when the game or system is running. The
+    game or system select menu is alway orientated normally.<BR>
+    -Resolution<BR>
+    Allows you to select between low, medium, and high resolution.
+    This is useful to be able to play games like rampage which use
+    a high resolution screen. It is also useful to have enough pixels
+    to display games rotated vertically and still be able to see
+    all the pixels. You can use this feature when you connect the
+    camera to a TV or monitor so you don't have to rotate it. The
+    low resolution is good for Gamegear and gameboy which don't have
+    much resolution. Note: I have yet to get any gameboy games to
+    run yet, this driver is new.<BR>
+    -No Rotation<BR>
+    -Rotation Right<BR>
+    -Rotation Left<BR>
+    -Flip X<BR>
+    -Flip Y<BR>
+    These are all MAME options for display to adjust which way is
+    up for game and system graphics. You can experiment to find which
+    option works best for you for which game or system.<BR>
+    -Sound<BR>
+    This enables sound MAME, but it can be disabled with the fake
+    sound option.<BR>
+    -Samples<BR>
+    This enables sound samples that are required for some ROMs. Place
+    the samples in the samples folder inside the system folder. This
+    can be disabled by the fake sound option.<BR>
+    -Fake Sound<BR>
+    This disables sound at the low level so MAME can think sound
+    is running. Some ROMs require sound to be enabled to operate
+    properly. This can be used to disable sound without affecting
+    these ROMs.<BR>
+    -Artwork<BR>
+    Just put the artwork files in the artwork directory.<BR>
+    -CPU Slice Speedup<BR>
+    Some game drivers have exceeding high number of CPU context switches
+    when they really don't require so many. This option reduces the
+    number of context switches to exactly 1 per frame. This may not
+    work on some driver and may crash others but on the few it does
+    work on you can expect a dramatic speed boost. (try Xevious,
+    Dig Dug and Galaga for example)<BR>
+    -Auto Rotate<BR>
+    Detect the orientation of the game and rotate the screen and
+    directional to match.<BR>
+    -Dirty Rects<BR>
+    Dirty rects option allows the video code to only update the parts
+    of the screen that have changed and can improve video performance.
+    You can force this option on or off or only turn it on for drivers
+    that support dirty rects.</FONT></P>
+
+    <P><FONT FACE="Arial">After you select a game or system with
+    the display button, press left and right to press 'OK'. Since
+    there are no 'O' or 'K' buttons on the camera. Then the info
+    screen will appear and you can press and key to start the game
+    or system. Note: if you rotated the directional pad you will
+    have to press left and right in the new direction.</FONT></P>
+
+    <P><FONT FACE="Arial">To stop the game or system and go back
+    to the main game or system list press the middle softkey. This
+    is mapped to &lt;esc&gt;.</FONT></P>
+
+    <P><FONT FACE="Arial">I would suggest adjusting the direction
+    buttons before playing a game or system since it may be rotated.
+    Do this from the MAME menu under adjust keys or before you start
+    the game or system with the pad orientation setting. Good thing
+    it's easy to rotate the monitor on a digital camera. If only
+    I could do that on my full sized Xevious game.</FONT></P>
+
+    <P><FONT FACE="Arial">Mamefront Keys:<BR>
+    Up, Down: scroll list<BR>
+    Left, Right: page list<BR>
+    Display: select game or system &lt;enter&gt;<BR>
+    Power: turns off power to the camera<BR>
+    Menu: options menu<BR>
+    Record or Left Softkey: driver module menu</FONT></P>
+
+    <P><FONT FACE="Arial">MAME Keys:<BR>
+    Up,Down,Left,Right: Up, Down, Left, Right<BR>
+    Display: select &lt;enter&gt;<BR>
+    Menu: menu &lt;tab&gt;<BR>
+    Onscreen Menu: record &lt;tilde or ~&gt;<BR>
+    Left Softkey: player 1 &lt;1&gt;<BR>
+    Middle Softkey: exit &lt;esc&gt;<BR>
+    Right Softkey: insert coin &lt;3&gt;<BR>
+    Zoom In: player 1 button 1 &lt;alt&gt;<BR>
+    Zoom Out: player 1 button 2 &lt;cntl&gt;<BR>
+    Shutter 2: snapshot of the screen is saved to the flashcard<BR>
+    Power: turns off power to the camera, hold it down for a second</FONT></P>
+
+    <P><FONT FACE="Arial">On the Minolta Dimage 1500 EX and HP C500
+    Photosmart the keys are slightly different.</FONT></P>
+
+    <P><FONT FACE="Arial">HPC500<BR>
+    Overlay maps to select &lt;enter&gt; instead of Display</FONT></P>
+
+    <P><FONT FACE="Arial">Minolta Dimage 1500 EX<BR>
+    Overlay maps to select &lt;enter&gt; instead of Display<BR>
+    Status maps to player 1 button 1 &lt;alt&gt; instead of Zoom
+    In<BR>
+    player 1 button 2 &lt;cntl&gt; is not mapped to any key</FONT></P>
+
+    <P><FONT FACE="Arial">I AM NOT RESPONSIBLE FOR YOUR BROKEN CAMERA
+    if you play with it too roughly, be careful with your buttons.</FONT></TD> 
+  </TR>
+</TABLE></P>
+
+<P><CENTER><!--#include virtual="/bottom.htm"--></CENTER>
+
+</BODY>
+</HTML>
